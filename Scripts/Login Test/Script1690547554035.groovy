@@ -34,3 +34,5 @@ WebUI.closeBrowser()
 
 WebUI.comment('liao.zz add to Comment')
 
+WebUI.comment('pi.y test comment')
+
