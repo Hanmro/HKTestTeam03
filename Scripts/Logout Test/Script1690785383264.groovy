@@ -33,3 +33,5 @@ WebUI.click(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/
 
 WebUI.closeBrowser()
 
+WebUI.comment('liao.zz add to comment')
+
