@@ -27,8 +27,10 @@ WebUI.setEncryptedText(findTestObject('Login Page/Page_TestProject Demo/input_Pa
 
 WebUI.click(findTestObject('Login Page/Page_TestProject Demo/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Login Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form'), 
-    'Hello hkit, let\'s complete the test form:', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Login Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form'), 'Hello hkit, let\'s complete the test form:', 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
+
+WebUI.comment('测试员2号备注')
 
