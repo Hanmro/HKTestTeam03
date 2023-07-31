@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Testing,Chrome 109.0.0.0,,,2023-07-31 14:47:20,2023-07-31 14:48:37,1m - 17.371s,PASSED
+,,,,,,,
+Test Cases/Login Test,Chrome 109.0.0.0,,,2023-07-31 14:47:20,2023-07-31 14:47:34,13.764s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-07-31 14:47:21,2023-07-31 14:47:25,4.267s,PASSED
+"navigateToUrl(""https://example.testproject.io/web/"")",Chrome 109.0.0.0,,,2023-07-31 14:47:25,2023-07-31 14:47:30,5.258s,PASSED
+"setText(findTestObject(""Lab04-Login Page/Page_TestProject Demo/input_Full Name_name""), ""hkit"")",Chrome 109.0.0.0,,,2023-07-31 14:47:30,2023-07-31 14:47:31,0.949s,PASSED
+"setEncryptedText(findTestObject(""Lab04-Login Page/Page_TestProject Demo/input_Password_password""), ""iGDxf8hSRT4="")",Chrome 109.0.0.0,,,2023-07-31 14:47:31,2023-07-31 14:47:32,0.535s,PASSED
+"click(findTestObject(""Lab04-Login Page/Page_TestProject Demo/button_Login""))",Chrome 109.0.0.0,,,2023-07-31 14:47:32,2023-07-31 14:47:32,0.569s,PASSED
+"verifyElementText(findTestObject(""Lab04-Login Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form""), ""Hello hkit, let's complete the test form:"", STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-07-31 14:47:32,2023-07-31 14:47:33,0.582s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-07-31 14:47:33,2023-07-31 14:47:34,0.869s,PASSED
+,,,,,,,
+Test Cases/Logout Test,Chrome 109.0.0.0,,,2023-07-31 14:47:34,2023-07-31 14:48:15,41.038s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-07-31 14:47:34,2023-07-31 14:47:36,1.898s,PASSED
+"navigateToUrl(""https://example.testproject.io/web/"")",Chrome 109.0.0.0,,,2023-07-31 14:47:36,2023-07-31 14:48:09,32.968s,PASSED
+"setText(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/input_Full Name_name""), ""hkit"")",Chrome 109.0.0.0,,,2023-07-31 14:48:09,2023-07-31 14:48:10,1.046s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/input_Password_password""), ""iGDxf8hSRT4="")",Chrome 109.0.0.0,,,2023-07-31 14:48:10,2023-07-31 14:48:11,0.703s,PASSED
+"click(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/button_Login""))",Chrome 109.0.0.0,,,2023-07-31 14:48:11,2023-07-31 14:48:11,0.439s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/button_Logout""), 0)",Chrome 109.0.0.0,,,2023-07-31 14:48:11,2023-07-31 14:48:12,0.606s,PASSED
+"click(findTestObject(""Object Repository/Logout Page/Page_TestProject Demo/button_Logout""))",Chrome 109.0.0.0,,,2023-07-31 14:48:12,2023-07-31 14:48:14,1.566s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-07-31 14:48:14,2023-07-31 14:48:15,1.220s,PASSED
+,,,,,,,
+Test Cases/Registration Test,Chrome 109.0.0.0,,,2023-07-31 14:48:15,2023-07-31 14:48:37,22.053s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-07-31 14:48:16,2023-07-31 14:48:17,1.890s,PASSED
+"navigateToUrl(""https://example.testproject.io/web/"")",Chrome 109.0.0.0,,,2023-07-31 14:48:17,2023-07-31 14:48:24,6.748s,PASSED
+"setText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Full Name_name""), ""hkit"")",Chrome 109.0.0.0,,,2023-07-31 14:48:24,2023-07-31 14:48:25,1.153s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Password_password""), ""iGDxf8hSRT4="")",Chrome 109.0.0.0,,,2023-07-31 14:48:25,2023-07-31 14:48:26,0.558s,PASSED
+"click(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/button_Login""))",Chrome 109.0.0.0,,,2023-07-31 14:48:26,2023-07-31 14:48:26,0.522s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/select_AfghanistanAlbaniaAlgeriaAmerican Sa_e5890c""), ""CN"", true)",Chrome 109.0.0.0,,,2023-07-31 14:48:26,2023-07-31 14:48:31,4.284s,PASSED
+"setText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Address_address""), ""No. 11,Caipin Road,"")",Chrome 109.0.0.0,,,2023-07-31 14:48:31,2023-07-31 14:48:32,0.850s,PASSED
+"setText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Email_email""), ""test@gmail.com"")",Chrome 109.0.0.0,,,2023-07-31 14:48:32,2023-07-31 14:48:33,1.108s,PASSED
+"setText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/input_Phone_phone""), ""020-12345678"")",Chrome 109.0.0.0,,,2023-07-31 14:48:33,2023-07-31 14:48:34,1.032s,PASSED
+"click(findTestObject(""Registration Page/Page_TestProject Demo/button_Save""))",Chrome 109.0.0.0,,,2023-07-31 14:48:34,2023-07-31 14:48:34,0.618s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/span_Saved""), ""Saved"")",Chrome 109.0.0.0,,,2023-07-31 14:48:34,2023-07-31 14:48:35,0.404s,PASSED
+"click(findTestObject(""Object Repository/Registration Page/Page_TestProject Demo/button_Logout""))",Chrome 109.0.0.0,,,2023-07-31 14:48:35,2023-07-31 14:48:36,1.434s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-07-31 14:48:36,2023-07-31 14:48:37,0.800s,PASSED

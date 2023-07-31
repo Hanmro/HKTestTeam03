@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Testing" time="49.127" tests="3" failures="0" errors="0">
+   <testsuite name="Smoke Testing" tests="3" failures="0" errors="0" time="49.127" skipped="0" timestamp="2023-07-31 14:54:16" hostname="tan.zx - 192.168.203.1" id="Test Suites/Smoke Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tan.zx\\git\\HKTestTeam03\\Reports\\20230731_145411\\Smoke Testing\\20230731_145411"/>
+         <property name="logFiles" value="C:\\Users\\tan.zx\\git\\HKTestTeam03\\Reports\\20230731_145411\\Smoke Testing\\20230731_145411\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tan.zx - 192.168.203.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.203.1"/>
+         <property name="sessionId" value="d95d4d533c0caf611425604ff63a0816"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test" time="14.455" classname="Test Cases/Login Test" status="PASSED">
+         <system-out><![CDATA[2023-07-31 14:54:17 - [TEST_CASE][PASSED] - Test Cases/Login Test: Test Cases/Login Test
+
+2023-07-31 14:54:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 14:54:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 14:54:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 14:54:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 14:54:22 - [TEST_STEP][PASSED] - navigateToUrl("https://example.testproject.io/web/"): Navigate to 'https://example.testproject.io/web/' successfully
+
+2023-07-31 14:54:27 - [MESSAGE][PASSED] - Navigate to 'https://example.testproject.io/web/' successfully
+
+2023-07-31 14:54:27 - [TEST_STEP][PASSED] - setText(findTestObject("Lab04-Login Page/Page_TestProject Demo/input_Full Name_name"), "hkit"): Text 'hkit' is set on object 'Object Repository/Lab04-Login Page/Page_TestProject Demo/input_Full Name_name'
+
+2023-07-31 14:54:29 - [MESSAGE][PASSED] - Text 'hkit' is set on object 'Object Repository/Lab04-Login Page/Page_TestProject Demo/input_Full Name_name'
+
+2023-07-31 14:54:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Lab04-Login Page/Page_TestProject Demo/input_Password_password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Lab04-Login Page/Page_TestProject Demo/input_Password_password'
+
+2023-07-31 14:54:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Lab04-Login Page/Page_TestProject Demo/input_Password_password'
+
+2023-07-31 14:54:29 - [TEST_STEP][PASSED] - click(findTestObject("Lab04-Login Page/Page_TestProject Demo/button_Login")): Object: 'Object Repository/Lab04-Login Page/Page_TestProject Demo/button_Login' is clicked on
+
+2023-07-31 14:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Lab04-Login Page/Page_TestProject Demo/button_Login' is clicked on
+
+2023-07-31 14:54:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Lab04-Login Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form"), "Hello hkit, let's complete the test form:", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Lab04-Login Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form' are matched.
+
+2023-07-31 14:54:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Lab04-Login Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form' are matched.
+
+2023-07-31 14:54:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 14:54:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout Test" time="13.236" classname="Test Cases/Logout Test" status="PASSED">
+         <system-out><![CDATA[2023-07-31 14:54:31 - [TEST_CASE][PASSED] - Test Cases/Logout Test: Test Cases/Logout Test
+
+2023-07-31 14:54:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 14:54:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 14:54:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 14:54:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 14:54:34 - [TEST_STEP][PASSED] - navigateToUrl("https://example.testproject.io/web/"): Navigate to 'https://example.testproject.io/web/' successfully
+
+2023-07-31 14:54:38 - [MESSAGE][PASSED] - Navigate to 'https://example.testproject.io/web/' successfully
+
+2023-07-31 14:54:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Logout Page/Page_TestProject Demo/input_Full Name_name"), "hkit"): Text 'hkit' is set on object 'Object Repository/Logout Page/Page_TestProject Demo/input_Full Name_name'
+
+2023-07-31 14:54:39 - [MESSAGE][PASSED] - Text 'hkit' is set on object 'Object Repository/Logout Page/Page_TestProject Demo/input_Full Name_name'
+
+2023-07-31 14:54:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Logout Page/Page_TestProject Demo/input_Password_password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Logout Page/Page_TestProject Demo/input_Password_password'
+
+2023-07-31 14:54:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Logout Page/Page_TestProject Demo/input_Password_password'
+
+2023-07-31 14:54:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout Page/Page_TestProject Demo/button_Login")): Object: 'Object Repository/Logout Page/Page_TestProject Demo/button_Login' is clicked on
+
+2023-07-31 14:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout Page/Page_TestProject Demo/button_Login' is clicked on
+
+2023-07-31 14:54:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Logout Page/Page_TestProject Demo/button_Logout"), 0): Object 'Object Repository/Logout Page/Page_TestProject Demo/button_Logout' is present
+
+2023-07-31 14:54:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-31 14:54:41 - [MESSAGE][PASSED] - Object 'Object Repository/Logout Page/Page_TestProject Demo/button_Logout' is present
+
+2023-07-31 14:54:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout Page/Page_TestProject Demo/button_Logout")): Object: 'Object Repository/Logout Page/Page_TestProject Demo/button_Logout' is clicked on
+
+2023-07-31 14:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout Page/Page_TestProject Demo/button_Logout' is clicked on
+
+2023-07-31 14:54:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 14:54:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration Test" time="20.945" classname="Test Cases/Registration Test" status="PASSED">
+         <system-out><![CDATA[2023-07-31 14:54:44 - [TEST_CASE][PASSED] - Test Cases/Registration Test: Test Cases/Registration Test
+
+2023-07-31 14:54:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-31 14:54:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-31 14:54:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-31 14:54:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-31 14:54:47 - [TEST_STEP][PASSED] - navigateToUrl("https://example.testproject.io/web/"): Navigate to 'https://example.testproject.io/web/' successfully
+
+2023-07-31 14:54:52 - [MESSAGE][PASSED] - Navigate to 'https://example.testproject.io/web/' successfully
+
+2023-07-31 14:54:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/input_Full Name_name"), "hkit"): Text 'hkit' is set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Full Name_name'
+
+2023-07-31 14:54:54 - [MESSAGE][PASSED] - Text 'hkit' is set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Full Name_name'
+
+2023-07-31 14:54:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/input_Password_password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Password_password'
+
+2023-07-31 14:54:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Password_password'
+
+2023-07-31 14:54:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/button_Login")): Object: 'Object Repository/Registration Page/Page_TestProject Demo/button_Login' is clicked on
+
+2023-07-31 14:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration Page/Page_TestProject Demo/button_Login' is clicked on
+
+2023-07-31 14:54:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/select_AfghanistanAlbaniaAlgeriaAmerican Sa_e5890c"), "CN", true): All options with value 'CN' are selected in object 'Object Repository/Registration Page/Page_TestProject Demo/select_AfghanistanAlbaniaAlgeriaAmerican Sa_e5890c'  using regular expression
+
+2023-07-31 14:54:59 - [MESSAGE][PASSED] - All options with value 'CN' are selected in object 'Object Repository/Registration Page/Page_TestProject Demo/select_AfghanistanAlbaniaAlgeriaAmerican Sa_e5890c'  using regular expression
+
+2023-07-31 14:54:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/input_Address_address"), "No. 11,Caipin Road,"): Text 'No. 11,Caipin Road,' is set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Address_address'
+
+2023-07-31 14:55:00 - [MESSAGE][PASSED] - Text 'No. 11,Caipin Road,' is set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Address_address'
+
+2023-07-31 14:55:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/input_Email_email"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Email_email'
+
+2023-07-31 14:55:01 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Email_email'
+
+2023-07-31 14:55:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/input_Phone_phone"), "020-12345678"): Text '020-12345678' is set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Phone_phone'
+
+2023-07-31 14:55:02 - [MESSAGE][PASSED] - Text '020-12345678' is set on object 'Object Repository/Registration Page/Page_TestProject Demo/input_Phone_phone'
+
+2023-07-31 14:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Registration Page/Page_TestProject Demo/button_Save")): Object: 'Object Repository/Registration Page/Page_TestProject Demo/button_Save' is clicked on
+
+2023-07-31 14:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration Page/Page_TestProject Demo/button_Save' is clicked on
+
+2023-07-31 14:55:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/span_Saved"), "Saved"): Actual text and expected text of test object 'Object Repository/Registration Page/Page_TestProject Demo/span_Saved' are matched.
+
+2023-07-31 14:55:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Registration Page/Page_TestProject Demo/span_Saved' are matched.
+
+2023-07-31 14:55:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Registration Page/Page_TestProject Demo/button_Logout")): Object: 'Object Repository/Registration Page/Page_TestProject Demo/button_Logout' is clicked on
+
+2023-07-31 14:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration Page/Page_TestProject Demo/button_Logout' is clicked on
+
+2023-07-31 14:55:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-31 14:55:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-31 14:54:16 - [TEST_SUITE][PASSED] - Smoke Testing: Test Cases/Registration Test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

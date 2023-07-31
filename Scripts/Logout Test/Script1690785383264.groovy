@@ -21,14 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://example.testproject.io/web/')
 
-WebUI.setText(findTestObject('Login Page/Page_TestProject Demo/input_Full Name_name'), 'hkit')
+WebUI.setText(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/input_Full Name_name'), 'hkit')
 
-WebUI.setEncryptedText(findTestObject('Login Page/Page_TestProject Demo/input_Password_password'), 'iGDxf8hSRT4=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/input_Password_password'), 'iGDxf8hSRT4=')
 
-WebUI.click(findTestObject('Login Page/Page_TestProject Demo/button_Login'))
+WebUI.click(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Login Page/Page_TestProject Demo/p_Hello hkit, lets complete the test form'), 
-    'Hello hkit, let\'s complete the test form:', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/button_Logout'), 0)
+
+WebUI.click(findTestObject('Object Repository/Logout Page/Page_TestProject Demo/button_Logout'))
 
 WebUI.closeBrowser()
 
