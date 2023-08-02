@@ -45,3 +45,5 @@ WebUI.click(findTestObject('Object Repository/Registration Page/Page_TestProject
 
 WebUI.closeBrowser()
 
+WebUI.comment('谭兆雄添加了此Comment')
+
